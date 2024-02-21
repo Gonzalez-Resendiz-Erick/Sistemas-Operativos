@@ -37,9 +37,17 @@ int main(){
         case 2:
             
             break;
-        case 3:
             
+        case 3:
+       printf("\nIntroduzca el multiplicando: ");
+       scanf("%f", &n1);
+       printf("Introduzca el multiplicador: ");
+       scanf("%f", &n2);
+
+       n3 = n1 * n2; 
+       printf("\nEl resultado es: %.2f\n", n3);
             break;
+            
         case 4:
             printf("\n  Introduzca el dividendo\n");
             scanf("\n %f",&n1);
