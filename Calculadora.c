@@ -24,14 +24,18 @@ int main(){
             float num, suma = 0;
             do {
                 printf("Introduzca un número:\n ");
-                scanf("%f". &num);
+                scanf("%f", &num);
 
                 suma += num;
 
                 printf(" ¿Desea ingresar otro numero? (si/no): \n");
                 scanf(" %c", &agregar);
 
-            } while (agregar == 'si' || agregar 'Si');
+            } while (agregar == 'si');
+
+            printf("La suma de los numeros ingresados es %.2f\n", suma);
+            return 0;
+        }
             break;
             
         case 2:
