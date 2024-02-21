@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+float resta(float numero1, float numero2){
+    return numero1 - numero2;
+}
+
 int main(){
     int op;
     float n3, n1, n2;
@@ -39,6 +43,15 @@ int main(){
             break;
             
         case 2:
+            float resultado;
+            printf("\nIntroduce el primer número:\n");
+            scanf("%f", &n1);
+            printf("\nIntroduce el segundo número:\n");
+            scanf("%f", &n2);
+
+            resultado = resta(n1,n2);
+
+            printf("El resultado de la resta es: %.2f\n", resultado);
             
             break;
             
