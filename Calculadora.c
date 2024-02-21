@@ -20,8 +20,20 @@ int main(){
         switch (op)
         {
         case 1:
-            
+            char agregar;
+            float num, suma = 0;
+            do {
+                printf("Introduzca un número:\n ");
+                scanf("%f". &num);
+
+                suma += num;
+
+                printf(" ¿Desea ingresar otro numero? (si/no): \n");
+                scanf(" %c", &agregar);
+
+            } while (agregar == 'si' || agregar 'Si');
             break;
+            
         case 2:
             
             break;
